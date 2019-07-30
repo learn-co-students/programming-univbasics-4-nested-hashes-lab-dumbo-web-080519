@@ -103,9 +103,9 @@ def changing_alan
           :languages => ["C"]
         }
      }
+  return programmer_hash
    
 end
-return changing_alan[:alan_kay][:known_for]
 
 
 def adding_to_dennis
@@ -124,4 +124,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
  		}
+ programmer_hash[:dennis_ritchie][:languages].push("Assembly")
+ return programmer_hash
 end
